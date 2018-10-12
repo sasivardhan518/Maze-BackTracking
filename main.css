@@ -1,0 +1,61 @@
+#maze {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: gray;
+}
+
+.start {
+    margin-top: 0;
+    background-color: red !important;
+}
+
+.end {
+    margin-top: 0;
+    background-color: green !important;
+}
+
+.maze-child {
+    border: 1px solid black;
+    float: left;
+}
+
+.visited {
+    background-color: lightgreen;
+}
+
+.visited-completely {
+    background-color: white;
+}
+
+.north {
+    border-top: 1px solid lightgreen;
+}
+
+.south {
+    border-bottom: 1px solid lightgreen;
+}
+
+.east {
+    border-right: 1px solid lightgreen;
+}
+
+.west {
+    border-left: 1px solid lightgreen;
+}
+
+.north-visited {
+    border-top: 1px solid white;
+}
+
+.south-visited {
+    border-bottom: 1px solid white;
+}
+
+.east-visited {
+    border-right: 1px solid white;
+}
+
+.west-visited {
+    border-left: 1px solid white;
+}
