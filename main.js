@@ -1,6 +1,6 @@
 var rows = 15;
 var columns = 15;
-var timeInMs = 25;
+var timeInMs = 85;
 var directions = ['north',
     'south',
     'east',
